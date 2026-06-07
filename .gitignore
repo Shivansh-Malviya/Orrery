@@ -1,0 +1,95 @@
+﻿# Orrery .gitignore
+# Conventions inherited from F:\BROS_SYSTEM\.gitignore (BROS shell dynamic state patterns)
+
+# --- OS / filesystem ---
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+*.bak
+.vim/
+.emacs.d/
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.temp
+*.orig
+*.rej
+.merge_file*
+
+# --- Local secrets (must never be committed) ---
+.env
+.env.local
+.envrc
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.python-version
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Node ---
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+yarn-error.log
+npm-debug.log*
+
+# --- Build outputs ---
+dist/
+build/
+out/
+target/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+*.lib
+
+# --- BROS dynamic state (per F:\BROS_SYSTEM\.gitignore convention) ---
+# system/state/ and hooks/state/ are runtime artifacts; commit the README, not the data files
+system/state/*.md
+system/state/*.json
+system/state/*.yaml
+!system/state/README.md
+hooks/state/*.json
+hooks/state/*.yaml
+!hooks/state/README.md
+
+# --- Obsidian dynamic state ---
+# The .obsidian/ dir itself is committed; only the dynamic state files are ignored
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/cache/
+.trash/
+
+# --- Cache ---
+.cache/
