@@ -12,9 +12,10 @@ the system-level changelog; per-project changelogs live in
 
 ## Initial state (2026-06-07)
 
-The initial state was committed as 9 logical commits, each covering one
-concern. Per user direction, the "single commit per logical step" pattern
-is preserved here for review.
+The initial state was committed as 12 logical OC- commits plus the
+pre-existing LICENSE, each covering one concern. Per user direction,
+the "single commit per logical step" pattern is preserved here for
+review.
 
 ### Steps
 
@@ -31,8 +32,10 @@ is preserved here for review.
 | 8 | OC-Feat: protocol stub per module (8 modules) | 8 | efaebc1 |
 | 9 | OC-Docs: additional initial manifests (this file + 3) | 4 | fabee1c |
 | 10 | OC-Chore: capture BROS shell structure (12 dirs with root docs) | 12 | a9c4a48 |
+| 11 | OC-Chore: populate BROS shell dirs (12 AGENTS.md + 38 .gitkeep + changelog sync) | 51 | bffebf3 |
+| 12 | OC-Chore: migrate BROS_SYSTEM real content to Orrery (selective, per plan) | 33 | 5a72da5 |
 
-**Total: 124 files across 11 commits (1 LICENSE + 9 OC- initial + 1 OC- capture)**
+**Total: 209 files across 13 commits (1 LICENSE + 9 OC- initial + 1 OC- capture + 1 OC- populate + 1 OC- migrate)**
 
 ## Conventions
 
