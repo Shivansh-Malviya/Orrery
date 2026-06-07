@@ -1,0 +1,17 @@
+# .contextignore - toolchain exclusion patterns
+# See: F:\BROS\opencode\templates\context\README.md "Tooling: .contextignore"
+
+# Python
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+.next/
+dist/
+
+# Editors
+.vscode/
+.idea/
+*.swp
