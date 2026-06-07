@@ -1,3 +1,11 @@
+> **Historical note:** This is the BROS Butler Root → BROS migration
+> manifest, migrated from `F:\BROS_SYSTEM\.agents\MANIFEST.md` on 2026-06-07.
+> It is preserved here as a **historical reference** for the original
+> Butler Root → BROS migration. It is NOT a current map of the Orrery
+> workspace. For the current Orrery structure, see
+> `F:\Orrery\system\manifest\structure\current.manifest.md` and
+> `F:\Orrery\AGENTS.md`.
+
 # BROS Workspace Manifest
 
 Canonical mapping from Butler Root (`F:\BUTLER_ROOT`) to BROS (`F:\BROS_SYSTEM`).

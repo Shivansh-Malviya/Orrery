@@ -17,11 +17,14 @@ structure-only skeleton with the designator protocol for parallel-agent
 coordination per F:\BROS\opencode\templates\context\ (v2026-06-07).
 
 what changed:
-- F:\Orrery\ BROS shell (17 dirs) + workspace/ (8 modules) + system/manifest/
+- F:\Orrery\ = 6 hidden dirs (.agents, .archive, .context, .github, .obsidian, .safe)
+  + 12 BROS shell dirs (data, etc, governance, hooks, inbox, lib, policy, ref,
+  SECOND_BRAIN, system, tools, vaults) + workspace/ (8 modules) + system/manifest/
 - 9 .context/ dirs (root + 8 modules) with canonical 9-file schema
 - 9 .agents/Protocols/protocol_stub.md (root + 8 modules)
 - 4 manifest files: renames, migrations, structure/current, bros-to-orrery
-- 10 AGENTS.md files (root, .agents, system, 8 modules) with YAML frontmatter
+- 23 AGENTS.md files (root, .agents, .context, .github, SECOND_BRAIN, system,
+  12 BROS shell dirs, 8 workspace modules) with YAML frontmatter
 - 2 root entry-points: README.md, AGENTS.md
 - .contextignore at project root
 - .gitignore (standard exclusions)

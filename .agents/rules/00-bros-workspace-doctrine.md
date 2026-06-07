@@ -1,3 +1,11 @@
+> **Historical / platform-specific note:** This is the BROS workspace
+> doctrine, migrated from `F:\BROS_SYSTEM\.agents\rules\workspace-doctrine.md`
+> on 2026-06-07. It is flavored for **Antigravity** (commit prefix `AG-`,
+> Antigravity Python SDK hooks). Orrery is harness-agnostic — see
+> `F:\Orrery\AGENTS.md` for the active contract. This file is preserved
+> as a reference of the BROS ruleset and as an example of an
+> Antigravity-flavored rule module.
+
 # BROS Workspace Doctrine (Antigravity)
 
 > Source: `policy/workspace-doctrine.md`

@@ -1,3 +1,17 @@
+> **Historical note:** This is the BROS directory manifest + hardened
+> execution prompt v2, migrated from `F:\BROS_SYSTEM\.agents\bros-structure-plan.md`
+> on 2026-06-07. It is the canonical plan that built `F:\BROS_SYSTEM\`.
+> It is preserved here as a **historical reference** for the structure
+> plan that produced the BROS tree. It is NOT the current Orrery structure
+> plan. For the current Orrery structure, see
+> `F:\Orrery\system\manifest\structure\current.manifest.md` and
+> `F:\Orrery\AGENTS.md`.
+>
+> Note: the execution prompt in this file targets `F:\BROS_SYSTEM\` as
+> the build root. It should NOT be executed against `F:\Orrery\` directly
+> — the Orrery tree is a different surface with different naming and
+> different rules.
+
 # BROS Directory Manifest + Hardened Execution Prompt (v2)
 
 This version fixes the brittle points from the prior draft:

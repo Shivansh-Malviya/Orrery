@@ -22,12 +22,13 @@ The story of how `F:\BROS_SYSTEM\` was replaced by `F:\Orrery\`.
 
 ## Migration goals
 
-1. **Clean structure-only skeleton** — every dir has a documented purpose
+1. **Clean workspace skeleton** — every dir has a documented purpose
 2. **Uniform naming conventions** — kebab-case, lowercase, hidden-dir pattern
-3. **BROS shell separation** — 17 control-plane dirs at root, content in workspace/
+3. **BROS shell separation** — 12 control-plane dirs + 6 hidden dirs at root, content in workspace/
 4. **Manifest-based system tracking** — renames, migrations, structure, AGENTS.md hierarchy
 5. **YAML frontmatter convention** — applied to .manifest.md and AGENTS.md files
 6. **Designator protocol integration** — .context/ at root + per module, per canonical design
+7. **Harness-agnostic contract** — the workspace contract does not depend on any single agent platform
 
 ## Actual changes (BROS_SYSTEM → Orrery)
 
@@ -59,6 +60,7 @@ The story of how `F:\BROS_SYSTEM\` was replaced by `F:\Orrery\`.
 - `.context/` at root + 8 module .context/ dirs — designator protocol surface
 - `.agents/{rules,skills,workflows}/` at root + per module — cross-platform agent resources
 - `.agents/Protocols/` at root + per module — protocol stubs
+- 6 hidden dirs (`.agents`, `.archive`, `.context`, `.github`, `.obsidian`, `.safe`) and 12 BROS shell dirs at root
 
 ### Conformance
 

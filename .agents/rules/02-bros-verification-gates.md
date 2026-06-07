@@ -1,3 +1,10 @@
+> **Historical / platform-specific note:** This is the BROS verification
+> gates rule, migrated from `F:\BROS_SYSTEM\.agents\rules\verification-gates.md`
+> on 2026-06-07. It references BROS-specific enforcer domains (brain-dump,
+> consistency, file-integrity, etc.) and the BROS enforcer orchestrator.
+> Orrery does not yet have an enforcer runtime; this file is preserved as
+> a reference of the BROS gates and as a future implementation target.
+
 # BROS Verification Gates (Antigravity)
 
 > Source: `policy/verification-gates.md`

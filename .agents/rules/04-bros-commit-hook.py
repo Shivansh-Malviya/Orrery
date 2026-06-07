@@ -1,3 +1,13 @@
+# ---------------------------------------------------------------------------
+# Historical / platform-specific note (added 2026-06-07):
+# This file is the BROS commit-attribution guard, migrated from
+# F:\BROS_SYSTEM\.agents\rules\commit-hook.py. It is **Antigravity-specific**
+# (deploys via `from antigravity.hooks import register_hook`). Orrery
+# uses the multi-platform prefix convention from F:\BUTLER_ROOT\AGENTS.md
+# (VSC-/AG-/OC-/U-); see F:\Orrery\policy\OUTPUT_PATH_POLICY.md for the
+# active contract. This file is preserved as a reference and as an example
+# of a BROS-flavored hook.
+# ---------------------------------------------------------------------------
 """
 Antigravity PreToolCallDecideHook — BROS commit attribution guard.
 

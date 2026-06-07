@@ -1,3 +1,14 @@
+# ---------------------------------------------------------------------------
+# Historical / platform-specific note (added 2026-06-07):
+# This file is the BROS file-ownership guard, migrated from
+# F:\BROS_SYSTEM\.agents\rules\enforcer-hooks.py. It is **Antigravity-specific**
+# (deploys via `from antigravity.hooks import register_hook`). It references
+# $env:BROS_SYSTEM and BROS-specific paths. Orrery does not have a BROS
+# runtime; this file is preserved as a reference implementation and as an
+# example of a BROS-flavored hook. It is NOT directly executable in
+# Orrery's current runtime. For Orrery's path-safety rules, see
+# F:\Orrery\policy\OUTPUT_PATH_POLICY.md.
+# ---------------------------------------------------------------------------
 """
 Antigravity PreToolCallDecideHook — BROS file ownership guard.
 

@@ -1,3 +1,11 @@
+> **Historical / platform-specific note:** This is the BROS commit
+> contract, migrated from `F:\BROS_SYSTEM\.agents\rules\commit-contract.md`
+> on 2026-06-07. It specifies the `AG-` prefix for Antigravity agents.
+> Orrery uses the multi-platform prefix convention from
+> `F:\BUTLER_ROOT\AGENTS.md` (VSC-/AG-/OC-/U-). This file is preserved
+> as a reference of the BROS contract and as an example of an
+> Antigravity-flavored contract.
+
 # BROS Commit Contract (Antigravity)
 
 > Source: `policy/commit-contract.md`

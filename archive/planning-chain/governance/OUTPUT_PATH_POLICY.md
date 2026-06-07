@@ -1,3 +1,15 @@
+> **Historical note:** This is the pre-Orrery BROS_SYSTEM version of
+> OUTPUT_PATH_POLICY. It has been **superseded** by the active policy at
+> `F:\Orrery\policy\OUTPUT_PATH_POLICY.md`. Do not use this version as
+> active policy. It is preserved here for historical reference only.
+>
+> Key differences from the active Orrery version:
+> - Runtime root was `F:\BROS_SYSTEM\`; active root is `F:\Orrery\`.
+> - This version forbids writes to `F:\BUTLER_ROOT\`; the active version
+>   allows reads of any non-secret path and does not generally forbid writes.
+> - The envelope rule here was for the BROS contract-template context;
+>   in Orrery it is scoped to specific contract-template tasks only.
+
 # BROS Output Path Policy
 
 ## Runtime Root

@@ -20,4 +20,4 @@ Admission control: pre-commit guards, event-driven triggers, scheduled tasks, in
 - Workspace root contract: see F:\Orrery\AGENTS.md
 - .gitignore: `hooks/state/*` is excluded from version control
 - Cross-platform shared: F:\Orrery\.agents\
-- File ownership guard: F:\Orrery\.github\hooks\pretool-file-ownership-guard.ps1
+- File ownership guard: see F:\BUTLER_ROOT\.github\hooks\scripts\pretool-file-ownership-guard.ps1 (canonical BROS implementation; mirror to F:\Orrery\.github\hooks\ if a local copy is needed)
