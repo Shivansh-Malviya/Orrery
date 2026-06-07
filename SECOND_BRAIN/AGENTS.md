@@ -1,4 +1,8 @@
-﻿# SECOND_BRAIN
+---
+module: second-brain
+last_updated: 2026-06-07
+---
+# SECOND_BRAIN
 
 Second brain knowledge base: raw ingest + wiki synthesis.
 

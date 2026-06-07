@@ -1,4 +1,8 @@
-﻿# policy
+---
+module: policy
+last_updated: 2026-06-07
+---
+# policy
 
 All governing rules: doctrine, contracts, verification gates, stage gates, registries.
 
