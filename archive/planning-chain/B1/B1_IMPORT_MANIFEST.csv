@@ -1,0 +1,9 @@
+﻿Asset,SourcePath,Class,Disposition,Risk,VerificationMethod,EvidencePath,EvidenceLine
+ANATOMY_SUMMARY.md,F:\BUTLER_AUDIT\ANATOMY_SUMMARY.md,historical,Archive,Snapshot bias if treated as current truth,Reference-only archival use,F:\BUTLER_AUDIT\ANATOMY_SUMMARY.md,1
+MIGRATION_ROADMAP.md,F:\BUTLER_AUDIT\MIGRATION_ROADMAP.md,advisory,Adapt,Legacy coupling if directly ported,Adapt via interface mapping and gate checks,F:\BUTLER_AUDIT\MIGRATION_ROADMAP.md,32
+TECH_STACK_DECISIONS.md,F:\BUTLER_AUDIT\TECH_STACK_DECISIONS.md,advisory,Adapt,Legacy coupling if directly ported,Adapt via interface mapping and gate checks,F:\BUTLER_AUDIT\TECH_STACK_DECISIONS.md,20
+REDESIGN_PROPOSAL.md,F:\BUTLER_AUDIT\REDESIGN_PROPOSAL.md,advisory,Adapt,Legacy coupling if directly ported,Adapt via interface mapping and gate checks,F:\BUTLER_AUDIT\REDESIGN_PROPOSAL.md,1
+CAPABILITY_GAPS.md,F:\BUTLER_AUDIT\CAPABILITY_GAPS.md,advisory,Adapt,Legacy coupling if directly ported,Adapt via interface mapping and gate checks,F:\BUTLER_AUDIT\CAPABILITY_GAPS.md,1
+dependency_graph.md,F:\BUTLER_AUDIT\dependency_graph.md,historical,Archive,Snapshot bias if treated as current truth,Reference-only archival use,F:\BUTLER_AUDIT\dependency_graph.md,1
+data_flows.md,F:\BUTLER_AUDIT\data_flows.md,historical,Archive,Snapshot bias if treated as current truth,Reference-only archival use,F:\BUTLER_AUDIT\data_flows.md,1
+16_Authoritative_Execution_Document.md,F:\BUTLER_AUDIT_SANDBOX\meta_execution_program\16_Authoritative_Execution_Document.md,authoritative,Keep,Policy drift or stale baseline,Direct read with anchored line verification,F:\BUTLER_AUDIT_SANDBOX\meta_execution_program\16_Authoritative_Execution_Document.md,213

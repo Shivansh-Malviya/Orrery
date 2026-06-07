@@ -1,0 +1,16 @@
+| Claim | SourcePath | LineAnchor | VerifierCommand | Status (Verified or Assumption) | FreshnessAgeDays |
+|---|---|---:|---|---|---:|
+| C1 and C3 are merged into one execution session; standalone C3 cycle is expected absent | F:\BUTLER_AUDIT_SANDBOX\meta_execution_program\16_Authoritative_Execution_Document.md | 213 | read_file 200-235 on 16_Authoritative_Execution_Document.md | Verified | 40.21 |
+| Canonical deduplicated problem count is 30 | F:\BUTLER_AUDIT_SANDBOX\meta_execution_program\cycle_outputs\C1\problem_count_mapping.md | 129 | read_file 120-152 on C1/problem_count_mapping.md | Verified | 22.19 |
+| C2 retained-severity statement exists and must be preserved | F:\BUTLER_AUDIT_SANDBOX\meta_execution_program\cycle_outputs\C2\severity_validation_log.md | 34 | read_file 1-45 on C2/severity_validation_log.md | Verified | 22.19 |
+| C2 correction ledger states decision values changed: NO | F:\BUTLER_AUDIT_SANDBOX\meta_execution_program\cycle_outputs\C2\severity_validation_log.md | 121 | read_file 45-130 on C2/severity_validation_log.md | Verified | 22.19 |
+| C2 immutability exact-value check PASS (30 rows parsed, round-trip equality true) | F:\BUTLER_AUDIT_SANDBOX\meta_execution_program\cycle_outputs\C2\severity_validation_log.md | 121 | run_in_terminal exact-value equality check on C2 consolidated table (CanonHash 511bf92ba68b646e8628fcae50f70c314003dcc1fd23f8eb109fe0e1e2da3bff) | Verified | 22.19 |
+| Stage Gate A verdict is FAIL | F:\BUTLER_AUDIT_SANDBOX\meta_execution_program\cycle_outputs\C5\STAGE_GATE_EVALUATION.md | 190 | read_file 186-240 on C5/STAGE_GATE_EVALUATION.md | Verified | 22.19 |
+| Stage Gate B verdict is PASS | F:\BUTLER_AUDIT_SANDBOX\meta_execution_program\cycle_outputs\C5\STAGE_GATE_EVALUATION.md | 191 | read_file 186-240 on C5/STAGE_GATE_EVALUATION.md | Verified | 22.19 |
+| Stage Gate C verdict is FAIL | F:\BUTLER_AUDIT_SANDBOX\meta_execution_program\cycle_outputs\C5\STAGE_GATE_EVALUATION.md | 192 | read_file 186-240 on C5/STAGE_GATE_EVALUATION.md | Verified | 22.19 |
+| Stage Gate D verdict is FAIL | F:\BUTLER_AUDIT_SANDBOX\meta_execution_program\cycle_outputs\C5\STAGE_GATE_EVALUATION.md | 193 | read_file 186-240 on C5/STAGE_GATE_EVALUATION.md | Verified | 22.19 |
+| Gate C policy-reconciliation gap is outside 10a-10h scope | F:\BUTLER_AUDIT_SANDBOX\meta_execution_program\cycle_outputs\C10\PHASE10_COMPLETION_CRITERIA.md | 103 | read_file 34-220 on C10/PHASE10_COMPLETION_CRITERIA.md | Verified | 22.19 |
+| O6 governance collision: turbo auto-run delete vs ask-first destructive policy | F:\BUTLER_AUDIT_SANDBOX\meta_execution_program\cycle_outputs\C4\o1_o8_integration_report.md | 164 | read_file 158-286 on C4/o1_o8_integration_report.md | Verified | 22.19 |
+| Default operating scope root is F:/BUTLER_ROOT | F:\BUTLER_ROOT\AGENTS.md | 11 | read_file 1-90 on AGENTS.md | Verified | 2.41 |
+| Archive-first behavior is mandated for existing files | F:\BUTLER_ROOT\.github\copilot-instructions.md | 29 | read_file 1-80 on .github/copilot-instructions.md | Verified | 26 |
+| Planning-critical claims older than 7 days must be revalidated or marked assumption (applied in this ledger via direct reads/commands) | F:\BUTLER_ROOT\.github\instructions\verification-gates.instructions.md | 17 | read_file 1-120 on .github/instructions/verification-gates.instructions.md | Verified | 26 |

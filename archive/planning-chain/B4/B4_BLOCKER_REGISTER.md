@@ -1,0 +1,4 @@
+﻿| ID | Description | Source | Severity | Status | Next Action |
+|----|-------------|--------|----------|--------|-------------|
+| B4-BLK-001 | B3 baseline hash manifest did not include B3's own outputs. Originally covered B0-B2 only (10 rows). Hashes appended: B3_PATH_GUARD_POLICY.md (fd6fa484), B3_BASELINE_HASH_MANIFEST.csv (311a9296), B3_BLOCKER_REGISTER.md (4a6abb01). | F:\BROS_SYSTEM\bootstrap\B3\B3_BASELINE_HASH_MANIFEST.csv | MEDIUM | RESOLVED | B3 self-hash entries appended. Manifest now complete (13 rows, B0-B3). |
+| B4-BLK-002 | B4 prior execution (2026-05-10) produced empty/incomplete outputs. Compliance matrix had only 1 row (scope lock); blocker register was empty. Contract requirements were not fulfilled. | F:\BROS_SYSTEM\bootstrap\B4\B4_COMPLIANCE_MATRIX.md (prior), F:\BROS_SYSTEM\bootstrap\B4\B4_BLOCKER_REGISTER.md (prior) | HIGH | RESOLVED (this run) | B4 re-run completed with full compliance matrix (15 rows) and blocker register (2 entries). |
