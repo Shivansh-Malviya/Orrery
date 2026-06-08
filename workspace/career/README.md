@@ -1,2 +1,7 @@
 # Career Compatibility Bridge
-This path is compatibility-only. Canonical application/campaign material belongs in workspace/argos/.
+
+**Hard rule:** This workspace is compatibility-only.
+
+- Do not add new canonical career/application/campaign material here.
+- Route canonical application/campaign material to `workspace/argos/`.
+- Only migration notes, pointers, or compatibility references may live here.

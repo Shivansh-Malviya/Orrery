@@ -75,6 +75,31 @@ review.
 - **risks**: BROS_Archive/ references in archived docs still reference old path (historical, left as-is); current-filetree.manifest.md is a historical snapshot (not updated)
 - **follow-up**: none blocking
 
+### 19 — OC-Arch: policy/contract fixes (export, permissions, work restriction, tool registry, validation)
+- **why**: Encode operational principles, routing, policy boundaries, and validation that the
+  architecture review identified as gaps.
+- **files created** (6):
+  - `policy/EXPORT_POLICY.md` — cross-system export movement rules
+  - `policy/TOOL_PERMISSION_POLICY.md` — tool capability vs authority principle
+  - `policy/WORK_RESTRICTED_CONTEXT_POLICY.md` — WorkBrain deferred status
+  - `opencode.json` — OpenCode harness bridge config
+  - `second-brain/maps/index.md` — federated map router
+  - `system/manifest/source-state.manifest.md` — source-state/parity doctrine
+- **files modified** (7):
+  - `second-brain/maps/work.md` — added restriction rules and deferred WorkBrain note
+  - `workspace/README.md` — added workspace type taxonomy (6 types)
+  - `workspace/career/README.md` — hardened to explicit "no canonical material" rule
+  - `workspace/career/AGENTS.md` — stripped "Layout" section; added hard rule
+  - `tools/registry.md` — fully permissioned with read/write/authority schema
+  - `tools/scripts/validate_structure.py` — added 6 new required paths + registry keyword check
+  - `system/manifest/structure/current.manifest.md` — added opencode.json, recent change entry
+- **not touched**: Lattice internals, ArgOS internals, portfolio, `.context/` protocol names,
+  `.agents/workflows/` (kept), new-project skill, WorkBrain full OS
+- **verification**: `python tools/scripts/validate_structure.py F:\Orrery` returns exit 0
+- **risks**: WorkBrain remains deferred — no full mirror of ArgOS; career bridge hardened
+  but legacy subdirectories still exist on disk; opencode.json added but has no schema validation
+- **follow-up**: none blocking
+
 ## Future
 
 The system changelog will record each subsequent commit series (e.g.,

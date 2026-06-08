@@ -1,6 +1,6 @@
 ﻿---
 title: Current Structure
-last_updated: 2026-06-07
+last_updated: 2026-06-08
 type: state
 status: current
 ---
@@ -13,6 +13,7 @@ Orrery uses a federated root architecture.
 - `.agents/` (internal operating layer)
 - `.context/` (designator protocol memory/state)
 - `system/` (runtime subsystems)
+- `opencode.json` (OpenCode bridge config)
 - `policy/` (active policy)
 - `governance/` (docs-only governance)
 - `hooks/` (event hooks)
@@ -78,3 +79,4 @@ Each module has its own `AGENTS.md`, `.context/` (designator protocol surface), 
 - 2026-06-07: Inherited Orrery_temp skeleton (no-replace): added protocols/, tools/ expansions, governance/ docs, workspace/ restructuring (pd→lattice, career/acos→argos, second-brain rename, etc.).
 - 2026-06-08: Added KNOWLEDGE.md + README.md to workspace/work/; removed vaults/ per user direction.
 - 2026-06-08: Structural audit fixes — removed forbidden entities, fixed workspace modules (argos .agents/ + .context/, career/inbox KNOWLEDGE.md), added frontmatter to AGENTS.md, renamed archive/ → BROS_Archive/, added .gitkeep to all empty dirs.
+- 2026-06-08: Policy/contract fixes — added EXPORT_POLICY, TOOL_PERMISSION_POLICY, WORK_RESTRICTED_CONTEXT_POLICY, opencode.json, second-brain/maps/index.md, source-state.manifest.md; permissioned tools/registry.md; hardened career bridge; added workspace type taxonomy; updated validation script with new checks.
