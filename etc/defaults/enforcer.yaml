@@ -1,0 +1,9 @@
+# Default enforcer configuration thresholds
+# Override in governance/context/enforcer.yaml for production values
+brain_dump_max_lines: 500
+brain_dump_freshness_days: 7
+brain_dump_archive_threshold_days: 90
+skill_freshness_days: 365
+workflow_freshness_days: 90
+session_stale_timeout_minutes: 30
+reconciliation_timeout_minutes: 10

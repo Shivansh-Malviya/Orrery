@@ -9,6 +9,10 @@ last_updated: 2026-06-08
 
 **Hard rule:** Do not add new canonical career/application/campaign material here. Only migration notes, pointers, or compatibility references may live in this workspace.
 
+## Context surface
+
+- `.context/` — 9-file designator protocol state. Per-agent state, not global.
+
 ## Cross-references
 
 - Workspace-level contract: see `F:\Orrery\AGENTS.md`.

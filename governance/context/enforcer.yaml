@@ -1,0 +1,7 @@
+# Active enforcer configuration (production overrides)
+# Values here override etc/defaults/enforcer.yaml in production.
+# Only keys that differ from defaults need to be listed.
+
+# (No overrides currently active — all production values match defaults.)
+# To override a value, uncomment and change:
+# brain_dump_max_lines: 1000

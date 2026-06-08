@@ -1,0 +1,16 @@
+# Default project skeleton configuration
+project:
+  context_template: F:\Bros\opencode\templates\context
+  files:
+    - AGENTS.md
+    - KNOWLEDGE.md
+    - README.md
+  context_files:
+    - project.md
+    - brain_dump.md
+    - todo.md
+    - backlog.md
+    - ideas_tracker.md
+    - changelog.md
+    - failure_log.md
+    - promotion_queue.md

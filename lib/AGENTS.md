@@ -1,17 +1,3 @@
----
-module: lib
-last_updated: 2026-06-07
----
+# lib/ — Shared Library Code
 
-# lib
-
-Shared code libraries.
-
-## Layout
-
-- python-utils/ - Python utility modules
-
-## Cross-references
-
-- Workspace root contract: see F:\Orrery\AGENTS.md
-- Tools: F:\Orrery\tools\
+- `python-utils/` — Python utility scripts for structure validation and automation

@@ -1,0 +1,7 @@
+{
+  "session_id": "REPLACE_WITH_SESSION_ID",
+  "started_at": "REPLACE_WITH_ISO_TIMESTAMP",
+  "intent": "REPLACE_WITH_ONE_PARAGRAPH",
+  "claimed_items": [],
+  "last_heartbeat": "REPLACE_WITH_ISO_TIMESTAMP"
+}

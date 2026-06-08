@@ -16,6 +16,10 @@ Subdirectories are created on demand as the module is populated. Conventions:
 
 See `workspace/me/KNOWLEDGE.md` for the domain knowledge index.
 
+## Context surface
+
+- `.context/` — 9-file designator protocol state. Per-agent state, not global.
+
 ## Cross-references
 
 - Workspace-level contract: see `F:\Orrery\AGENTS.md`.

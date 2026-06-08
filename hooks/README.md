@@ -1,15 +1,12 @@
-﻿# hooks
+# Hooks
 
-**Event hooks and hook installers.**
-
-Admission control: pre-commit guards, event-driven triggers, scheduled tasks, installers, state.
+Admission control. Validates before mutation, not after.
 
 ## Structure
-- `install/` — Hook installers (`install-hooks.ps1`, `setup-scheduler.ps1`)
-- `pre-commit/` — Pre-commit guard scripts (git, pretool, promptboost, session-start, stop)
-- `scheduled/` — Scheduled tasks (daily-enforcer-run, weekly-metrics, weekly-registry-sync)
-- `state/` — Hook state files (`file-locks.json`)
-- `triggers/` — Event-driven triggers (`Hook-*.ps1`)
 
-## Policy
-Hooks operate under `policy/OUTPUT_PATH_POLICY.md` — no writes to secret paths.
+| Path | Role |
+|------|------|
+| `pre-commit/` | Pre-commit gates — blocks bad commits with actionable error messages |
+| `triggers/` | Event-driven hooks — brain dump updates, context expansion, ideas tracking, rules reload, skeptic anchor, todo sync, transcribe, feedback learning |
+| `scheduled/` | Scheduled task definitions — daily enforcer, weekly metrics, setup-scheduler.ps1 |
+| `install/` | Hook deployment — install-hooks.ps1 deploys hooks to .git/hooks/ |

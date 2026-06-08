@@ -1,0 +1,10 @@
+{
+  "name": "Orrery",
+  "description": "Orrery agentic operating shell",
+  "agentPlatforms": ["opencode", "antigravity", "vscode-copilot"],
+  "skillsPath": ".agents/skills",
+  "contextIgnore": [".git", ".archive", "node_modules"],
+  "hooks": {
+    "preTool": "hooks/state/pretool-guard.json"
+  }
+}

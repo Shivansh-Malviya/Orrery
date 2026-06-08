@@ -1,0 +1,8 @@
+{
+  "session_id": "sess-YYYYMMDD-xxxxxx",
+  "started_at": "ISO-8601",
+  "intent": "One-paragraph description of planned work",
+  "claimed_items": [],
+  "last_heartbeat": "ISO-8601",
+  "reconciling": false
+}

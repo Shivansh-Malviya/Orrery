@@ -13,6 +13,10 @@ Subdirectories are created on demand as the module is populated. Conventions:
 - Hidden dirs (.admin/, .archive/, .profile/, .pet-projects/) follow the uniform pattern.
 - All non-conventional content lives under inbox/ until triaged.
 
+## Context surface
+
+- `.context/` — 9-file designator protocol state. Per-agent state, not global.
+
 ## Cross-references
 
 - Workspace-level contract: see F:\Orrery\AGENTS.md.

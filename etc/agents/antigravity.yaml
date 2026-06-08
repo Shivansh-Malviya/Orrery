@@ -1,0 +1,8 @@
+# Antigravity agent platform configuration
+platform: antigravity
+workspace: F:\Orrery
+contract_source: F:\Orrery\AGENTS.md
+memory_provider: file
+context_paths:
+  - .agents/user/identity.md
+  - .agents/user/preferences.md

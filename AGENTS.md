@@ -80,9 +80,10 @@ deployment is pending.
 
 Toolchain exclusion patterns are in `.contextignore` (project root).
 
-The runtime-context subsystem at `system/context/` is **global** context
-(identity, user preferences, system map, global_index), distinct from the
-project-level `.context/`.
+Global user context (identity, user preferences) lives in `.agents/user/`,
+distinct from the project-level `.context/`. The `system/context/` directory
+is currently unused; its original scope (system maps, indexes) may be
+restored later.
 
 ## Path safety
 

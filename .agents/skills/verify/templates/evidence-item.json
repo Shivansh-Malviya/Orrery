@@ -1,0 +1,22 @@
+{
+  "evidence_id": "E1",
+  "claim_id": "C1",
+  "type": "command",
+  "source": "<path | url | command | resource id | artifact>",
+  "locator": "<line range | page | selector | commit | timestamp | n/a>",
+  "method": "<how obtained>",
+  "captured_at_utc": "1970-01-01T00:00:00Z",
+  "result_summary": "<short factual result>",
+  "raw_output_sha256": null,
+  "stable_pointer": "<citation | resource id | artifact id | screenshot pointer | null>",
+  "limitations": "<what this does not prove>",
+  "command": {
+    "cwd": "<cwd or n/a>",
+    "exact_command": "<command or n/a>",
+    "argv": ["<command>", "<arg>"],
+    "exit_code": null,
+    "stdout_sha256": null,
+    "stderr_sha256": null,
+    "duration_seconds": null
+  }
+}
