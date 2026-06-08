@@ -55,9 +55,9 @@ Orrery uses a federated root architecture.
 
 ## Top-level inventory (BROS shell + user content)
 
-20 top-level entries (excluding `.git/`):
+19 top-level entries (excluding `.git/`):
 - 6 hidden dirs: `.agents`, `.archive`, `.context`, `.github`, `.obsidian`, `.safe`
-- 12 BROS shell dirs: `data`, `etc`, `governance`, `hooks`, `inbox`, `lib`, `policy`, `ref`, `second-brain`, `system`, `tools`, `vaults`
+- 11 BROS shell dirs: `data`, `etc`, `governance`, `hooks`, `inbox`, `lib`, `policy`, `ref`, `second-brain`, `system`, `tools`
 - 1 user-content root: `workspace`
 - `AGENTS.md` (root contract), `README.md` (root entry-point)
 
@@ -76,3 +76,4 @@ Each module has its own `AGENTS.md`, `.context/` (designator protocol surface), 
 - 2026-06-07: Applied YAML frontmatter to all .manifest.md and entry-point files; added .agents/ + AGENTS.md to every workspace module; git init.
 - 2026-06-07: Migrated 33 real-content files from BROS_SYSTEM (.agents/, archive/, policy/); 12 BROS shell dirs populated with AGENTS.md + .gitkeep.
 - 2026-06-07: Inherited Orrery_temp skeleton (no-replace): added protocols/, tools/ expansions, governance/ docs, workspace/ restructuring (pd→lattice, career/acos→argos, second-brain rename, etc.).
+- 2026-06-08: Added KNOWLEDGE.md + README.md to workspace/work/; removed vaults/ per user direction.

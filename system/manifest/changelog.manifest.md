@@ -44,6 +44,22 @@ review.
 - `OC-Chore:` for tooling/config, `OC-Docs:` for documentation, `OC-Feat:` for new features
 - This changelog is updated after each commit series; per-commit hashes are recorded in the Steps table
 
+## Post-inheritance changes
+
+### Steps
+
+| # | Subject | Files | Hash |
+|---|---------|-------|------|
+| 16 | OC-Docs: reconcile common files with Orrery_temp (intelligent merge) | 23 | 1b4e320 |
+| 17 | OC-Chore: add work KNOWLEDGE.md + README.md; remove vaults/ | 5 | (current) |
+
+### 17 — OC-Chore: add work KNOWLEDGE.md + README.md; remove vaults/
+- **why**: Add standard module skeleton files to workspace/work/ per user direction; remove vaults/ (kept all other flagged dirs)
+- **files touched**: created workspace/work/KNOWLEDGE.md, workspace/work/README.md; deleted vaults/ (AGENTS.md, README.md, dendron/.gitkeep); updated current.manifest.md
+- **verification**: 2 new files match sibling module pattern (lattice, argos); vaults/ git-rm'd
+- **risks**: vaults/ referenced in root AGENTS.md? check needed
+- **follow-up**: inspect validate_structure.py before running
+
 ## Future
 
 The system changelog will record each subsequent commit series (e.g.,

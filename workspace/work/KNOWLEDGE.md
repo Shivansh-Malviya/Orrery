@@ -1,2 +1,3 @@
-# Work Knowledge Bridge
-Approved WorkBrain knowledge interfaces.
+# WorkBrain Knowledge Bridge
+
+Approved work-domain knowledge interfaces and exports.
