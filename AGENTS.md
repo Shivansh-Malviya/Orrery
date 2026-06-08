@@ -3,9 +3,9 @@ module: orrery-root
 last_updated: 2026-06-07
 ---
 
-# Orrery (root)
+# Orrery Root Agent Contract
 
-The BROS shell for personal + work + research content. Replaces F:\BROS_SYSTEM\.
+Orrery root is the **OS/control plane**, not the primary work area.
 
 ## Harness-agnostic
 
@@ -20,28 +20,53 @@ OpenCode, `U-` for unknown. The Orrery workspace was bootstrapped with
 `OC-` (OpenCode) commits; future commits may use any of the above prefixes
 depending on the originating platform.
 
+## Scope surfaces
+
+- `AGENTS.md` = discoverable scope bridge
+- `.agents/` = internal operating layer
+- `.context/` = designator protocol memory/state
+- `KNOWLEDGE.md` = workspace-to-knowledge bridge
+- `tools/registry.md` = tool routing, not tool ownership
+
+## Authority
+
+Root policy > domain OS instructions > project instructions > tool-native instructions > harness preferences.
+
+## Work locations
+
+Use `workspace/lattice/`, `workspace/argos/`, `workspace/work/`, `workspace/research/`,
+project repos, or native tool folders. Do not use root as a normal project workspace.
+
 ## Top-level structure
 
 Two layers:
-1. **BROS shell** (12 root control-plane dirs) - runtime, agent adapters, governance.
-2. **Hidden dirs** (6 at root) - cross-platform agent resources, project context, archive, GitHub adapter, Obsidian config, absolute-canon.
-3. **workspace/** - 8 user-content modules.
+1. **BROS shell** (12 root control-plane dirs) — runtime, agent adapters, governance.
+2. **Hidden dirs** (6 at root) — cross-platform agent resources, project context, archive, GitHub adapter, Obsidian config, absolute-canon.
+3. **workspace/** — 9 user-content modules.
 
 The split mirrors the BROS pattern: shell-level state vs. user-level state.
 
 ## Hidden dirs (uniform pattern)
 
-- `.agents/` - cross-platform agent resources
-- `.archive/` - global archive
-- `.context/` - project-level designator protocol context (see Context protocol below)
-- `.github/` - GitHub-specific adapter
-- `.obsidian/` - Obsidian vault config
-- `.safe/` - absolute-canon content
+- `.agents/` — cross-platform agent resources
+- `.archive/` — global archive
+- `.context/` — project-level designator protocol context (see Context protocol below)
+- `.github/` — GitHub-specific adapter
+- `.obsidian/` — Obsidian vault config
+- `.safe/` — absolute-canon content
 
 ## Control-plane dirs (BROS shell)
 
 `data/`, `etc/`, `governance/`, `hooks/`, `inbox/`, `lib/`, `policy/`, `ref/`,
-`SECOND_BRAIN/`, `system/`, `tools/`, `vaults/` (12 dirs).
+`second-brain/`, `system/`, `tools/`, `vaults/` (12 dirs).
+
+## Second-brain topology
+
+Lattice, ArgOS, and WorkBrain own their domains. Root `second-brain/` is only general synthesis/maps.
+
+## Tools
+
+Tools are capabilities, not authorities. Read `tools/registry.md` before using a named tool.
 
 ## Context protocol
 

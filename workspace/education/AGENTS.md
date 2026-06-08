@@ -2,19 +2,22 @@
 module: education
 last_updated: 2026-06-07
 ---
+# Education Workspace
 
-# education
-
-Educational records, course notes, transcript, supervisor relationships.
+Education domain workspace. Educational records, course notes, transcript, supervisor relationships.
 
 ## Layout
 
 Subdirectories are created on demand as the module is populated. Conventions:
-- Hidden dirs (.admin/, .archive/, .profile/, .pet-projects/) follow the uniform pattern.
-- All non-conventional content lives under inbox/ until triaged.
+- Hidden dirs (`.admin/`, `.archive/`, `.profile/`, `.pet-projects/`) follow the uniform pattern.
+- All non-conventional content lives under `inbox/` until triaged.
+
+## Knowledge bridge
+
+See `workspace/education/KNOWLEDGE.md` for the domain knowledge index.
 
 ## Cross-references
 
-- Workspace-level contract: see F:\Orrery\AGENTS.md.
-- Cross-platform shared resources: F:\Orrery\.agents\.
-- Runtime subsystems: F:\Orrery\system\.
+- Workspace-level contract: see `F:\Orrery\AGENTS.md`.
+- Cross-platform shared resources: `F:\Orrery\.agents\`.
+- Runtime subsystems: `F:\Orrery\system\`.
