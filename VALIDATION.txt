@@ -1,0 +1,3 @@
+Command: python tools/scripts/validate_structure.py .
+Output: Orrery structure validation passed.
+exit_code=0
