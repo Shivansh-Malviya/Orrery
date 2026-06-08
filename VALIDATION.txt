@@ -1,3 +1,3 @@
-Command: python tools/scripts/validate_structure.py .
+Command: python tools/scripts/validate_structure.py F:\Orrery
 Output: Orrery structure validation passed.
 exit_code=0

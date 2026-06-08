@@ -47,8 +47,8 @@ operating in this workspace follows the same contract.
 | second-brain/ | shell | Personal second-brain (shell-level) |
 | system/ | shell | Runtime subsystems (enforcer, scheduler, manifest, etc.) |
 | tools/ | shell | Operator tools |
-| vaults/ | shell | Vault containers (Dendron-style notes; .obsidian/ is preferred) |
-| workspace/ | user | 9 user-content modules (career, education, inbox, me, pd, research, side-projects, work) |
+| BROS_Archive/ | shell | BROS-era archive content (migrated archive/) |
+| workspace/ | user | 9 user-content modules (career, education, inbox, me, lattice, research, side-projects, work) |
 
 **Counts:** 6 hidden + 12 BROS shell + workspace = 19 top-level user-visible entries
 (excluding `.git/`).

@@ -51,7 +51,7 @@ review.
 | # | Subject | Files | Hash |
 |---|---------|-------|------|
 | 16 | OC-Docs: reconcile common files with Orrery_temp (intelligent merge) | 23 | 1b4e320 |
-| 17 | OC-Chore: add work KNOWLEDGE.md + README.md; remove vaults/ | 5 | (current) |
+| 17 | OC-Chore: add work KNOWLEDGE.md + README.md; remove vaults/ | 5 | b49cb01 |
 
 ### 17 — OC-Chore: add work KNOWLEDGE.md + README.md; remove vaults/
 - **why**: Add standard module skeleton files to workspace/work/ per user direction; remove vaults/ (kept all other flagged dirs)
@@ -59,6 +59,21 @@ review.
 - **verification**: 2 new files match sibling module pattern (lattice, argos); vaults/ git-rm'd
 - **risks**: vaults/ referenced in root AGENTS.md? check needed
 - **follow-up**: inspect validate_structure.py before running
+
+### 18 — OC-Chore: structural audit fixes
+- **why**: Remove forbidden entities, fix workspace module gaps, add YAML frontmatter, rename archive/ → BROS_Archive/, add .gitkeep to empty dirs, update validation script
+- **fixes applied**:
+  - Forbidden: removed .agents/AGENTS.md, governance/{enforcer,scheduler,state}, workspace/career/acos
+  - Forbidden: updated validate_structure.py FORBIDDEN list (removed .agents/Protocols)
+  - Workspace: added .agents/ + .context/ to argos; added KNOWLEDGE.md to career and inbox
+  - Frontmatter: added YAML to second-brain/AGENTS.md, workspace/lattice/AGENTS.md, workspace/argos/AGENTS.md
+  - Rename: archive/ → BROS_Archive/ (with README and manifest updates)
+  - .gitkeep: added to 154 empty directories across the tree
+  - Deferred: WORK_HOME.md removed from REQUIRED list per user deferral
+  - Validation: updated VALIDATION.txt; validate_structure.py passes
+- **verification**: `python tools/scripts/validate_structure.py F:\Orrery` returns exit 0
+- **risks**: BROS_Archive/ references in archived docs still reference old path (historical, left as-is); current-filetree.manifest.md is a historical snapshot (not updated)
+- **follow-up**: none blocking
 
 ## Future
 
